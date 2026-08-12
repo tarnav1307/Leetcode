@@ -30,8 +30,8 @@ public:
                 if (prev != NULL)
                     prev->next = curr;
 
-                prev = curr;
             }
+            prev = curr;
         }
 
         return root;
